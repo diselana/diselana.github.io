@@ -1,0 +1,143 @@
+.welcome {
+  background: url(../../images/content/section1.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.maincontent {
+  height: 100%;
+}
+
+.container__header {
+  margin: 0 auto;
+  width: 940px;
+  position: relative; 
+
+}
+
+.header {
+  padding-top: 12px;
+  // display: block;
+}
+
+.header__left {
+  width: 30%;
+  float: left;
+}
+
+.header__right {
+  // align-items: center;
+  width: 70%;
+  float: right;
+}
+
+.nav__list {
+  display: block;
+  
+  
+}
+
+.nav__item {
+  display: inline;
+  margin-right: 15px;
+  &:after {
+    content: "";
+    display: inline-block;
+    background: #fff;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    margin-left: 12px;
+  }
+
+}
+
+.nav__link {
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link_button {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  background: #e45028;
+  padding: 10px 16px;
+  transition: all 0.3s;
+  text-decoration: none;
+  list-style-type: none;
+  &:hover {
+    background: #c1401e;
+  }
+}
+
+
+.content {
+  align-items: center;
+  top: 50%;
+}
+
+.welcome__content_left {
+  width: 48%;
+  float: left;
+}
+
+.welcome__content_right {
+  margin-top: 100px;
+  float: left;
+  width: 48%;
+}
+
+.welcome__content_right-title {
+  font-size: 72px;
+  font-family:  "Gagalin";
+  margin-bottom: -50px;
+  color: #f9b43b;
+  margin-bottom: 20px;
+}
+
+.welcome__content_right-text {
+  font: 62px/62px 'Lifehack';
+  color: #fff;
+}
+
+.welcome__arrow_link {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 80px;
+  width: 60px;
+  transition: .3s;
+  &:hover {
+    margin-bottom: 15px; // font-size: 10px;
+    outline-width: 0;
+  }
+}
+
+.welcome__arrow_lin-down {
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 50%);
+  transition: .3s;
+  margin-left: -50px;
+}
+
+.clearfix {
+  &::after,
+  &::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

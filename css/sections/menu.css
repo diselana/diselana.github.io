@@ -1,0 +1,72 @@
+.menu {
+  background: url(../../images/content/section5.jpg) 50% no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.section__title {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  color: #fff; }
+
+.menu__acco {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0; }
+
+.menu__acco_item {
+  float: left;
+  height: 100%; }
+  .menu__acco_item-active .menu__trigger_text {
+    color: #eb8d38; }
+  .menu__acco_item-active .menu__acco_content {
+    width: 550px; }
+
+.menu__acco_trigger {
+  height: 100%;
+  display: block;
+  width: 80px;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+
+.menu__trigger_text {
+  color: #fff;
+  font: "Gagalin";
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  margin-top: -40px;
+  white-space: nowrap;
+  width: 650px;
+  left: 50%;
+  margin-left: -313px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  text-align: center; }
+
+.menu__acco_content {
+  background: rgba(47, 50, 52, 0.93);
+  width: 0;
+  float: left;
+  height: 100%;
+  color: #fff;
+  overflow: hidden; }
+
+.menu__acco_text {
+  width: 550px;
+  padding: 20px; }
+
+.menu__content_text {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 15px;
+  margin-left: 20px;
+  line-height: 1.714; }

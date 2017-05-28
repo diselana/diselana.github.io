@@ -1,0 +1,39 @@
+.best {
+  background: url(../../images/content/section2.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative; }
+
+/* .best__content{
+//   margin: 0 auto;
+// }*/
+.best__content {
+  position: relative;
+  top: 30px;
+  text-align: center; }
+
+.best__text {
+  font-size: 71.713px;
+  font-family: "Gagalin";
+  color: #2f3234;
+  line-height: 0.889;
+  padding-top: 80px;
+  margin-bottom: 90px; }
+
+.advantage__one {
+  width: 30%;
+  float: left; }
+
+.advantage__two {
+  width: 30%;
+  float: left; }
+
+.advantage__three {
+  width: 30%;
+  float: left; }
+
+.advantage__img {
+  margin-bottom: 34px;
+  vertical-align: bottom; }
+
+.advantage__title {
+  font: 24.12px/24.12px "Lifehack"; }
