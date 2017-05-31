@@ -1,8 +1,6 @@
 
-/*# sourceMappingURL=main.css.map */
+// /*# sourceMappingURL=main.css.map */
 
-
-//
 $orange: #e45028;
 $yellow: #f9b43b;
 $black: #2f3234;
@@ -10,9 +8,9 @@ $red: #c1401e;
 $white:#fff;
 
 //setup
-// @import "setup/normalize";
-// @import "setup/layout";
-// @import "setup/fonts";
+@import "setup/normalize";
+@import "setup/layout";
+@import "setup/fonts";
 
 //sections
 @import "sections/welcome";

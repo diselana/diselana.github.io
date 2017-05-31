@@ -1,5 +1,6 @@
-$yellow: #eb8d38;
+$yellow: #f9b43b;
 $orange: #e45028;
+
 .team {
 	background: url(../../images/content/section4.jpg) no-repeat;
 	background-size: cover;
@@ -17,11 +18,11 @@ $orange: #e45028;
 }
 
 
-
 .section__title_yellow {
+
 	margin-top: 110px;
 	margin-bottom: 90px;
-	color: rgb(249, 180, 59);
+	color: $yellow;
 }
 
 .team-acco__trigger {
@@ -50,31 +51,35 @@ $orange: #e45028;
 	}
 }
 
-// .team-acco__item:hover{
-// 		.team-acco__conten {
-// 		display: block;
-// 	}
-// 	.team-acco__trigger {
-// 		color: $yellow;
-// 		&:before {
-// 			transform: rotate(-180deg);
-// 		}
-// 	}
-// }
-.team-acco__item_active {
-	.team-acco__conten {
-		display: block;
-	}
+.team-acco__item:hover{
+
 	.team-acco__trigger {
 		color: $yellow;
 		&:before {
 			transform: rotate(-180deg);
 		}
 	}
+		.team-acco__content {
+		display: block;
+	}
 }
 
+// .team-acco__item_active {
+// 	.team-acco__trigger {
+// 		color: $yellow;
+// 		&:before {
+// 			transform: rotate(-180deg);
+// 		}
+// 	}
+// 		.team-acco__content {
+// 		display: block;
+// 	}
+// }
+
+
 .team-acco__content {
-	padding-bottom: 14px; //  display: none;
+	padding-bottom: 14px; //  
+	display: none;
 }
 
 .team-acco__pic {
@@ -96,6 +101,7 @@ $orange: #e45028;
 .team-acco__text {
 	float: left;
 	width: 60%;
+	margin-left: 20px;
 }
 
 .team-acco__title {
@@ -103,7 +109,7 @@ $orange: #e45028;
 	font-weight: bold;
 	font-size: 14px;
 	color: #fff;
-	margin-bottom: 14px;
+	margin-bottom: 20px;
 }
 
 .team-acco__text-content {

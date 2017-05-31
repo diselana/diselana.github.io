@@ -1,0 +1,41 @@
+.fixed__menu {
+    position: fixed;
+    top: 90px;
+    right: 50px;
+}
+
+.fixed__menu_item {
+       display: block;
+    width: 14px;
+    height: 14px;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.fixed__menu_item:hover {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+        margin-bottom: 7px;
+        transition: all 0.2s;
+}
+
+// .fixed__menu_item-active {
+//     width: 14px;
+//     height: 14px;
+//     border: 1px solid #fff;
+//     border-radius: 50%;
+//         margin-bottom: 7px;
+//         transition: all 0.2s;
+// }
+
+.fixed__menu_link {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: block;
+    transform: translate(3px, 3px);
+}

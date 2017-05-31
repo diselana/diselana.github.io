@@ -55,12 +55,18 @@
 
 .nav__link {
   display: inline-block;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 13px;
+  line-height: 2.308;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: "Ubuntu";
 }
+
+// .nav__item:last-child {
+//   list-style-type: none;
+// }
 
 .nav__link_button {
   display: inline-block;
