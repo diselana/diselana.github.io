@@ -13,11 +13,6 @@ body {
   font-family: 'Ubuntu-Light';
   color: #2f3234; }
 
-.container {
-  margin: 0 auto;
-  width: 940px;
-  position: relative; }
-
 .wrapper {
   position: relative;
   min-width: 960px;
@@ -32,12 +27,22 @@ body {
 .section {
   height: 100%;
   height: 100vh;
-  min-height: 650px; }
+  min-height: 650px;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 .section__title {
   font-size: 71.713px;
   font-family: "Gagalin";
   line-height: 0.889; }
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  position: relative; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;

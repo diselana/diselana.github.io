@@ -31,6 +31,17 @@
   float: right;
 }
 
+.nav {
+  float: left;
+}
+
+.nav__button {
+  float: left;
+  margin-top: -3px;
+  font-family: "Ubuntu";
+  font-size: 13px;
+}
+
 .nav__list {
   display: block;
   
