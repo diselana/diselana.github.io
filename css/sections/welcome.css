@@ -71,7 +71,7 @@
   .nav__link_button:hover {
     background: #c1401e; }
 
-.content {
+.content__welcome {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;

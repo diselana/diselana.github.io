@@ -24,21 +24,7 @@
   margin-bottom: 90px;
 }
 
-// .advantages {
-//   margin-top: 95px;
-// }
-
-.advantage__one {
-  width: 30%;
-  float: left;
-}
-
-.advantage__two {
-  width: 30%;
-  float: left;
-}
-
-.advantage__three {
+.advantage{
   width: 30%;
   float: left;
 }
@@ -50,4 +36,11 @@
 
 .advantage__title {
   font: 24.12px/24.12px "Lifehack";
+}
+
+.advantage__text {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgba(47, 50, 52, 0.8);
+  line-height: 1.714;
 }
