@@ -18,10 +18,10 @@
   color: #f9b43b; }
 
 .team-acco__trigger {
-  font-weight: bold;
   margin-bottom: 20px;
   color: #fff;
   font-size: 14px;
+  font-family: "Gagalin";
   text-decoration: none;
   position: relative;
   display: block; }
@@ -42,14 +42,14 @@
     transform: rotate(0deg);
     transition: 300ms; }
 
-.team-acco__item:hover .team-acco__trigger {
+.team-acco__item_active .team-acco__trigger {
   color: #f9b43b; }
-  .team-acco__item:hover .team-acco__trigger:before {
+  .team-acco__item_active .team-acco__trigger:before {
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg); }
 
-.team-acco__item:hover .team-acco__content {
+.team-acco__item_active .team-acco__content {
   display: block; }
 
 .team-acco__content {
@@ -75,12 +75,14 @@
   margin-left: 20px; }
 
 .team-acco__title {
+  font-family: "Ubuntu";
   font-weight: bold;
   font-size: 14px;
   color: #fff;
   margin-bottom: 20px; }
 
 .team-acco__text-content {
+  font-family: "Ubuntu(light)";
   color: #fff;
   font-size: 14px; }
 

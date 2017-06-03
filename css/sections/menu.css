@@ -35,7 +35,7 @@
 
 .menu__trigger_text {
   color: #fff;
-  font: "Gagalin";
+  font-family: "Gagalin";
   font-size: 40px;
   position: absolute;
   top: 50%;

@@ -19,21 +19,20 @@ $orange: #e45028;
 
 
 .section__title_yellow {
-
 	margin-top: 110px;
 	margin-bottom: 90px;
 	color: $yellow;
 }
 
 .team-acco__trigger {
-	font-weight: bold;
 	margin-bottom: 20px;
 	color: #fff;
 	font-size: 14px;
-	//   @include Gagalin;
+	font-family: "Gagalin";
 	text-decoration: none;
 	position: relative;
 	display: block;
+
 	&:before {
 		content: "";
 		display: block;
@@ -51,20 +50,8 @@ $orange: #e45028;
 	}
 }
 
-.team-acco__item:hover{
+// .team-acco__item:hover{
 
-	.team-acco__trigger {
-		color: $yellow;
-		&:before {
-			transform: rotate(-180deg);
-		}
-	}
-		.team-acco__content {
-		display: block;
-	}
-}
-
-// .team-acco__item_active {
 // 	.team-acco__trigger {
 // 		color: $yellow;
 // 		&:before {
@@ -75,6 +62,18 @@ $orange: #e45028;
 // 		display: block;
 // 	}
 // }
+
+.team-acco__item_active {
+	.team-acco__trigger {
+		color: $yellow;
+		&:before {
+			transform: rotate(-180deg);
+		}
+	}
+		.team-acco__content {
+		display: block;
+	}
+}
 
 
 .team-acco__content {
@@ -105,7 +104,7 @@ $orange: #e45028;
 }
 
 .team-acco__title {
-	// @include ubuntu(bold);
+	font-family: "Ubuntu";
 	font-weight: bold;
 	font-size: 14px;
 	color: #fff;
@@ -113,7 +112,7 @@ $orange: #e45028;
 }
 
 .team-acco__text-content {
-	// @include ubuntu(light);
+	font-family: "Ubuntu(light)";
 	color: #fff;
 	font-size: 14px;
 }

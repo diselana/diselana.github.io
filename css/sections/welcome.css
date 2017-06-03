@@ -20,7 +20,7 @@
 
 .header__right {
   width: 70%;
-  float: right; }
+  float: left; }
 
 .nav {
   float: left; }
@@ -72,17 +72,13 @@
     background: #c1401e; }
 
 .content__welcome {
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  top: 50%; }
+  margin-top: -98px; }
 
 .welcome__content_left {
   width: 48%;
   float: left; }
 
 .welcome__content_right {
-  margin-top: 100px;
   float: left;
   width: 48%; }
 

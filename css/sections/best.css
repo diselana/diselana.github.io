@@ -8,7 +8,6 @@
 // }*/
 .best__content {
   position: relative;
-  top: 30px;
   text-align: center; }
 
 .best__text {
@@ -16,7 +15,6 @@
   font-family: "Gagalin";
   color: #2f3234;
   line-height: 0.889;
-  padding-top: 80px;
   margin-bottom: 90px; }
 
 .advantage {

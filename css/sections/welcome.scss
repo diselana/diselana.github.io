@@ -28,7 +28,7 @@
 .header__right {
   // align-items: center;
   width: 70%;
-  float: right;
+  float: left;
 }
 
 .nav {
@@ -97,8 +97,9 @@
 
 
 .content__welcome {
-  align-items: center;
-  top: 50%;
+  // align-items: center;
+  // top: 50%;
+  margin-top: -98px;
 }
 
 .welcome__content_left {
@@ -107,7 +108,7 @@
 }
 
 .welcome__content_right {
-  margin-top: 100px;
+  // margin-top: 100px;
   float: left;
   width: 48%;
 }

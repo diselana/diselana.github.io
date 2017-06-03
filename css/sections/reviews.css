@@ -19,10 +19,13 @@
   position: relative;
   overflow: hidden; }
   .review:hover .review__hover {
+    padding-top: 12%;
+    padding-left: 4.8%;
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); }
+    transform: scale(1);
+    height: 100%; }
 
 .review__picture {
   position: absolute;
@@ -50,30 +53,27 @@
   transition: .3s; }
 
 .review__hover_heading {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 7.2%;
   font-family: 'Gagalin';
   color: #fff; }
 
 .review__hover_paragraph {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 4.8%;
   max-height: 60%;
   overflow: hidden;
   line-height: 1.7;
   color: #fff; }
 
 .review__button .review__button_link {
-  margin-left: 20px;
-  padding: 10px 15px;
+  padding: 2.4% 3.6%;
   color: #fff;
   border-radius: 5px;
   border: 1px solid #2B2D2F;
   background-color: #2B2D2F;
   text-decoration: none; }
   .review__button .review__button_link:hover {
-    padding: 10px 15px;
+    padding: 2.4% 3.6%;
+    padding-left: 4.8%;
     border-radius: 5px;
     border: 1px solid #1F2122;
     background-color: #1F2122; }

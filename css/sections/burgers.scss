@@ -145,6 +145,7 @@ $red: #e35028;
 .order__form_button {
   display: inline-block;
   text-transform: uppercase;
+  font-family: "Ubuntu";
   color: #fff;
   font-size: 13px;
   border-radius: 5px;
@@ -155,7 +156,10 @@ $red: #e35028;
   list-style-type: none;
   margin-left: 30px;
   border: 0;
-  cursor: pointer;
+  // cursor: pointer;
+    &:hover {
+    background: #c1401e;
+  }
 }
 
 .burger__weight {

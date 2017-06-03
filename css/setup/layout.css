@@ -32,7 +32,8 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  position: relative; }
 
 .section__title {
   font-size: 71.713px;
