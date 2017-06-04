@@ -1,18 +1,20 @@
-.welcome {
+.section__welcome {
   background: url(../../images/content/section1.png) no-repeat center center;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  height: 100%;
+  min-height: 650px; }
 
-.maincontent {
-  height: 100%; }
-
-.container__header {
+.container__welcome {
+  height: 100%;
   margin: 0 auto;
   width: 940px;
   position: relative; }
 
 .header {
-  padding-top: 12px; }
+  padding-top: 12px;
+  height: 85px;
+  position: relative; }
 
 .header__left {
   width: 30%;
@@ -71,16 +73,22 @@
   .nav__link_button:hover {
     background: #c1401e; }
 
-.content__welcome {
-  margin-top: -98px; }
+.welcome__content {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 .welcome__content_left {
-  width: 48%;
+  width: 50%;
   float: left; }
 
 .welcome__content_right {
   float: left;
-  width: 48%; }
+  width: 50%; }
 
 .welcome__content_right-title {
   font-size: 72px;
