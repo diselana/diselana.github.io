@@ -93,7 +93,7 @@
 .welcome__content {
   margin: 0 auto;
   width: 940px;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -101,6 +101,7 @@
 .welcome__content_left {
   width: 50%;
   float: left;
+  margin-top: -85px;
 }
 
 .welcome__content_right {
