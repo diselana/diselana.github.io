@@ -24,7 +24,8 @@
 
 .order__form_label {
   padding-right: 15px;
-  display: block; }
+  display: block;
+  position: relative; }
 
 .order__form_input-comment {
   height: 110px; }
@@ -64,12 +65,15 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
-  font-size: 0;
+  margin-top: 20px;
   cursor: pointer; }
 
-.order__radio_input {
+.order__radio_input,
+.callback__checkbox_input {
   position: absolute;
-  left: -9999px; }
+  left: -9999px;
+  top: 0;
+  display: inline-block; }
 
 .order__radio_body {
   width: 16px;
@@ -78,6 +82,21 @@
   background: #fff;
   display: inline-block;
   vertical-align: middle; }
+
+.order__radio_body:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background: #e35028;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: .7s; }
 
 .order__radio_title {
   font-family: "Ubuntu-Light";
@@ -88,30 +107,50 @@
   vertical-align: middle;
   margin-left: 10px; }
 
-.order__checkbox {
+.order__radio_input:checked + .order__radio_body:after {
+  width: 8px;
+  height: 8px; }
+
+.callback__checkbox {
+  cursor: pointer;
   display: inline-block;
-  cursor: pointer; }
+  margin-top: 10px;
+  vertical-align: middle; }
 
-.order__checkbox_input {
-  display: none; }
-
-.order__checkbox_body {
+.callback__checkbox_body {
   width: 15px;
   height: 15px;
   background-color: #fff;
   display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px;
-  position: relative; }
+  vertical-align: middle; }
 
-.order__checkbox_title {
+.callback__checkbox_body:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: .7s;
+  background: url(../../images/content/checkmark.png) center center no-repeat; }
+
+.callback__checkbox_title {
   font-family: "Ubuntu-Light";
   font-weight: 300;
   font-size: 14px;
   color: #fff;
   display: inline-block;
   line-height: 24px;
-  padding-top: 5px; }
+  padding-top: 5px;
+  padding-left: 8px; }
+
+.callback__checkbox_input:checked + .callback__checkbox_body:after {
+  width: 13px;
+  height: 11px; }
 
 .order__form_button {
   margin-left: 0;

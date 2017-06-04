@@ -24,11 +24,9 @@
 <body>
   <div class="wrapper">
     <div class="maincontent">
-
-      <!--
-      <section class="section active welcome">
-        <div class="container__header">
-          <header class="header clearfix">
+      <section class="section__welcome active">
+        <div class="container__welcome">
+          <header class="header">
             <div class="header__left">
               <img src="../images/content/logo.png" alt="logo" class="header__left_logo">
             </div>
@@ -48,9 +46,7 @@
               </div>
             </div>
           </header>
-        </div>
-        <div class="container">
-          <div class="content__welcome clearfix">
+          <div class="welcome__content clearfix">
             <div class="welcome__content_left">
               <img src="../images/content/section1_burger1.png" alt="content-logo" class="content__img">
             </div>
@@ -75,60 +71,7 @@
             </svg>
           </span>
         </a>
-      </section>-->
-
-
-      <section class="section__welcome active">
-          <div class="container__welcome">
-        <header class="header">
-          <div class="header__left">
-            <img src="../images/content/logo.png" alt="logo" class="header__left_logo">
-          </div>
-          <div class="header__right clearfix">
-            <div class="nav">
-              <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Бургеры</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Команда</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Меню</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
-              </ul>
-            </div>
-            <div class="nav__button">
-              <a href="#" class="nav__link_button">Заказать</a>
-            </div>
-          </div>
-        </header>
-        <div class="welcome__content clearfix">
-          <div class="welcome__content_left">
-            <img src="../images/content/section1_burger1.png" alt="content-logo" class="content__img">
-          </div>
-          <div class="welcome__content_right">
-            <h1 class="welcome__content_right-title">мы делаем </h1>
-            <p class="welcome__content_right-text">натуральные бургеры</p>
-          </div>
-        </div>
-          </div>
-        <a href="#" class="welcome__arrow_link">
-          <span class="welcome__arrow_lin-down">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              width="28.685px" height="14.479px" viewBox="0 0 28.685 14.479" enable-background="new 0 0 28.685 14.479" xml:space="preserve">
-              <g>
-                <g>
-                  <path fill="#FFFFFF" d="M14.332,14.479c-1.279,0-2.554-0.486-3.525-1.458L0.268,1.681c-0.376-0.404-0.353-1.037,0.052-1.413
-        c0.403-0.374,1.036-0.354,1.413,0.052l10.514,11.314c1.145,1.143,3.049,1.142,4.218-0.026L26.952,0.319
-        c0.378-0.405,1.011-0.426,1.413-0.052c0.404,0.376,0.428,1.009,0.052,1.413L17.903,12.995
-        C16.913,13.986,15.62,14.479,14.332,14.479z" />
-                </g>
-              </g>
-            </svg>
-          </span>
-        </a>
       </section>
-
-
-
       <section class="section best">
         <div class="container">
           <div class="best__content">
@@ -278,7 +221,6 @@
                 <h3 class="burger__price">500</h3>
                 <div class="burger__price_text">Рублей</div>
                 <div class="content__burgers_oredr">
-                  <!--<input type="submit" class="order__form_button btn" value="Заказать">-->
                   <a href="#section__order" class="order__form_button">Заказать</a>
                 </div>
               </div>
@@ -297,9 +239,6 @@
           <div class="team__title">
             <h3 class="section__title section__title_yellow">Команда</h3>
           </div>
-          <!--<div class="section__title section__title_yellow">
-            команда
-          </div>-->
           <ul class="team-acco">
             <li class="team-acco__item">
               <a href="#" class="team-acco__trigger">
@@ -542,7 +481,6 @@
       </section>
       <section class="section order" id="section__order">
         <div class="container">
-          <!--<h2 class="section__title">закажите доставку</h2>-->
           <div class="order__form_wrapper">
             <h2 class="order__title">закажите доставку</h2>
             <form class="order__form clearfix">
@@ -583,35 +521,29 @@
                 </div>
               </div>
               <div class="order__form_right">
-                <div class="order__form_row ">
-                  <label class="order__form_label ">
+                <label class="order__form_label ">
                                         <div class="order__form_title">Комментарий</div>
                                         <textarea name="comment" class="order__form_input order__form_input-comment"></textarea>
                                     </label>
-                </div>
-                <div class="order__form_row">
-                  <label class="order__radio">
-                                        <input type="radio" class="order__radio_input" name="pay">
+                <label class="order__radio" for="change">
+                                        <input type="radio" class="order__radio_input" name="pay" id="change">
                                         <div class="order__radio_body"></div>
                                         <div class="order__radio_title">Потребуется сдача</div>
                                     </label>
-                  <label class="order__radio">
-                                        <input type="radio" class="order__radio_input" name="pay">
+                <label class="order__radio" for="card">
+                                        <input type="radio" class="order__radio_input" name="pay" id="card">
                                         <div class="order__radio_body"></div>
                                         <div class="order__radio_title">Оплата по карте</div>
                                     </label>
-                </div>
                 <div class="order__form_row">
-                  <label class="order__checkbox">
-                                        <input type="checkbox" class="order__checkbox_input" name="pay">
-                                        <div class="order__checkbox_body"></div>
-                                        <div class="order__checkbox_title">Не перезванивать</div>
+                  <label class="callback__checkbox" for="callback">
+                                        <input type="checkbox" class="callback__checkbox_input" id="callback">
+                                        <div class="callback__checkbox_body"></div>
+                                        <div class="callback__checkbox_title">Не перезванивать</div>
                                     </label>
                 </div>
-                <div class="order__form_row">
-                  <input type="submit" class="order__form_button" value="Заказать">
-                  <input type="reset" class="order__form_button-reset" value="Очистить">
-                </div>
+                <input type="submit" class="order__form_button" value="Заказать">
+                <input type="reset" class="order__form_button-reset" value="Очистить">
               </div>
             </form>
           </div>
