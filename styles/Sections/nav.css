@@ -1,0 +1,25 @@
+.nav__link {
+  display: block;
+  padding: 10px 25px 10px 0;
+  text-align: left;
+  text-decoration: none;
+  color: #414141;
+  border-right: 4px solid transparent;
+  transition: color .3s; }
+
+.nav__icon,
+.nav__title {
+  display: inline-block;
+  vertical-align: middle; }
+
+.nav__title {
+  margin-left: 5px; }
+
+.nav__link:hover {
+  color: #5D9EDA;
+  transition: color .3s; }
+
+.nav__link_active {
+  border-color: #5D9EDA;
+  font-weight: 600;
+  color: #5D9EDA; }
